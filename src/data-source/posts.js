@@ -2,7 +2,7 @@ import getRandomTimeStamp from "../helpers/getRandomTimeStamp";
 
 export const posts = {
   pid_111: {
-    imageUrl: "/images/America.jpg",
+    imageUrl: "/images/jungle.jpg",
     caption:
       "Mollit anim in cupidatat culpa irure sit officia aliqua qui elit adipisicing occaecat voluptate.",
     timeStamp: getRandomTimeStamp(new Date(2013, 0, 1), new Date()),
@@ -11,7 +11,7 @@ export const posts = {
     userWhoPosted: "matrix_victor",
   },
   pid_112: {
-    imageUrl: "/images/India.jpg",
+    imageUrl: "/images/lakeView.jpg",
     caption:
       "Mollit anim in cupidatat culpa irure sit officia aliqua qui elit adipisicing occaecat voluptate.",
     timeStamp: getRandomTimeStamp(new Date(2013, 0, 1), new Date()),
