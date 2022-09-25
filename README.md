@@ -9,3 +9,6 @@ Assumptions:
 5. Reply to comment part is considered while designing data but won't be able to implement it for now due to time constraint. But can have a look at schema where it would be more clear on how I thought of proceeding with data.
 6. Responsiveness is not considered here. 
 7. You can add comments by default username and like them as well.
+8. If you want to restart all this by dummy data as in files then clear the localStorage.
+9. For liking the post there is icon with little bit gray color in bottom left corner of post since double tap feature is yet to be implemented.
+10. Autofocus is implemented so if you click on comment then it will auto focus you to comment textBox.
