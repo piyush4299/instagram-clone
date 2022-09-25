@@ -1,0 +1,76 @@
+.CommentsContainer__postCaptionDetails img,
+.CommentsContainer__commentDetails img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.CommentsContainer__postCaptionDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.CommentsContainer__postCaption {
+  font-weight: 300;
+}
+
+.CommentsContainer__commentDetails {
+  display: flex;
+  flex-direction: row;
+}
+
+.CommentsContainer__commentBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.CommentsContainer__commentFeatures {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.CommentContainer__commentTimeStamp,
+.CommentContainer__totalLikes {
+  margin: auto 0.5rem;
+  font-weight: 300;
+  color: #404040;
+}
+
+.CommentsContainer__commentList {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.CommentsContainer__postedByUserName {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.CommentsContainer__likeCommentBtn {
+  margin: auto 0.5rem;
+}
+
+.CommentsContainer__likeCommentBtn--active {
+  font-color: red;
+}
+
+.CommentsContainer__commentedByUserName {
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+.CommentsContainer__commentedByProfileImage {
+  width: 15%;
+  text-align: center;
+  margin: auto 0;
+}
+
+.CommentsContainer__postCaptionProfileImage {
+  margin: auto 0;
+}

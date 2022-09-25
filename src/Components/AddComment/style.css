@@ -1,0 +1,22 @@
+.AddComment {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.AddComment input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.AddComment__button {
+  outline: none;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  width: 15%;
+  font-size: 1rem;
+  text-transform: uppercase;
+}

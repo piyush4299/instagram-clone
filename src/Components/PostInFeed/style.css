@@ -1,0 +1,86 @@
+.PostInFeed {
+  display: flex;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.PostInFeed__postContainer {
+  padding: 1rem 0;
+}
+
+.PostInFeed__profileImg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.PostInFeed__postImage {
+  height: 400px;
+}
+
+.PostInFeed__postImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.PostInFeed__commentContainer {
+  width: 100%;
+}
+
+.PostInFeed__commentHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.PostInFeed__commentHeader p {
+  width: 30%;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.PostInFeed__userDetails {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.PostInFeed__userName {
+  margin: auto 1rem;
+  width: 100%;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+.PostInFeed__postedBy {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.PostInFeed__postCaptionDetails {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.PostInFeed__postCaption {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.PostInFeed__postCommentsLink {
+  text-decoration: none;
+  color: gray;
+  padding: 1rem 0;
+}
+
+.PostInFeed__backButton {
+  margin: auto 0;
+  width: 10%;
+  font-size: 1.5rem;
+}
